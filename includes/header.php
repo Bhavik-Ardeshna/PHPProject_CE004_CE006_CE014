@@ -15,19 +15,19 @@
 <body>
 
 
-
-    <div class="flex w-full flex-wrap shadow-2xl sticky items-center justify-center z-50">
-        <div class="logo ">
-            Go Trip
+    <div class="fix">
+        <div class="flex w-full flex-wrap  items-center justify-center ">
+            <div class="logo ">
+                Go Trip
+            </div>
+            <div class="nav-bar">
+                <ul class=" flex md:col flex-wrap nav-text px-10">
+                    <li class="px-5"><a href="/GoTrip" class="hover:text-yellow-500">Home</a></li>
+                    <li class="px-5"><a href="/GoTrip/login.php" class="hover:text-yellow-500">Login</a></li>
+                    <li class="px-5"><a href="#" class="hover:text-yellow-500">Tours</a></li>
+                    <li class="px-5"><a href="/GoTrip/about.php" class="hover:text-yellow-500">About us</a></li>
+                    <li class="px-5"><a href="/GoTrip/contact.php" class="hover:text-yellow-500">Contact us</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="nav-bar">
-            <ul class=" flex md:col flex-wrap nav-text px-10">
-                <li class="px-5"><a href="/GoTrip" class="hover:text-yellow-500">Home</a></li>
-                <li class="px-5"><a href="/GoTrip/login.php" class="hover:text-yellow-500">Login</a></li>
-                <li class="px-5"><a href="#" class="hover:text-yellow-500">Tours</a></li>
-                <li class="px-5"><a href="/GoTrip/about.php" class="hover:text-yellow-500">About us</a></li>
-                <li class="px-5"><a href="/GoTrip/contact.php" class="hover:text-yellow-500">Contact us</a></li>
-            </ul>
-        </div>
-
     </div>
