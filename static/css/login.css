@@ -1,0 +1,148 @@
+.data__box{
+    background-image: url("../img/img-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*overflow: hidden;*/
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data__box::before {
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: rgba(254, 254, 255, 0.966);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(45deg, #8abdff, #398dfa) fixed;
+}
+
+.container
+{
+ 
+    width: 400px;
+    background: #fff;
+    margin: auto;
+    padding: 40px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#hello
+{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px;
+    color: #757575;
+}
+
+.good
+{
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 5px;
+    color: #398dfa;
+    margin-bottom: 60px;
+}
+
+.acc
+{
+    margin: 25px;
+    text-align: center;
+    color: #757575;
+    font-weight: 600;
+
+}
+
+.input
+{
+    display: block;
+    margin-bottom: 25px;
+    width: 280px;
+    text-align: center;
+ 
+}
+
+.input input
+{
+    box-sizing: border-box;
+    width: 280px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #398dfa;
+    
+    
+}
+
+.input input:focus
+{
+    border-bottom: 2px solid #398dfa;
+
+}
+
+#wyslij
+{
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    background: linear-gradient(45deg, #8abdff, #348cff);   
+    border: none;
+    outline: none;
+}
+
+#wyslij:focus
+{
+    outline: none;
+}
+
+#wyslij:hover
+{
+    background: #68a5f5;
+}
+
+
+.info
+{
+    margin: 13px 0;
+    text-align: center;
+    font-size: 13px;
+    color: red;
+}
+
+.foo
+{
+    text-align: center;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px;
+}
+
+.error
+{
+  color: red;
+}
+
+.main__box{
+    background-color: linear-gradient(45deg, #8abdff, #348cff); ;
+  
+    
+}
