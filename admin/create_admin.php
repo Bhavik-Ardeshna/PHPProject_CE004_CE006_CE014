@@ -1,16 +1,33 @@
 <?php
-$title = "Agency";
+$title = "Admin";
 require_once '../includes/header.php';
+require_once '../db/config.php';
+
 ?>
 <link rel="stylesheet" href="../static/css/home.css">
 <link rel="stylesheet" href="../static/css/login.css">
 
+<?php
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    echo "posted";
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $password = $_POST['psd'];
+
+    $query = "INSERT INTO admin_data VALUES ('" . $name . "','" . $email . "','" . $password . "')";
+    $result = mysqli_query($conn, $query);
+}
+
+?>
+
+
 <div class="container">
-    <form class="login-form" method="post">
+    <form class="login-form" action="create_admin.php" method="post">
         <div id="hello">Hello!</div>
         <div class="good">Good Morning!</div>
         <div class="acc">
-            <span style="color:#398dfa">Login</span> Organization Account</div>
+            <span style="color:#398dfa">Create</span> Your Admin Account</div>
 
         <div class="input">
             <input id="name" type="text" name="name" placeholder="Username" /></div>
@@ -21,18 +38,17 @@ require_once '../includes/header.php';
         <div class="input">
             <input id="psd" type="password" name="psd" placeholder="Password" /></div>
 
-        <input id="wyslij" type="submit" value="Login" />
+        <input id="wyslij" type="submit" value="Sign Up" />
         <div class="info"></div>
         <div class="foo">Forgot password?</div>
-        <a href="create_agency.php">
+        <a href="/GoTrip/admin">
             <div class="foo">
-                <span style="color:#398dfa ">Create Account</span>
+                <span style="color:#398dfa ">Login</span>
             </div>
         </a>
     </form>
 
 </div>
-
 
 <?php
 require_once '../includes/footer.php';

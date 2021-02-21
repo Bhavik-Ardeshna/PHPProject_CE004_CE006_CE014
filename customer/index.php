@@ -11,7 +11,7 @@ include './static/css/home.css';
         <div id="hello">Hello!</div>
         <div class="good">Good Morning!</div>
         <div class="acc">
-            <span style="color:#398dfa">Login</span> Your Account</div>
+            <span style="color:#398dfa">Login</span> User Account</div>
 
         <div class="input">
             <input id="name" type="text" name="name" placeholder="Username" /></div>
@@ -25,9 +25,11 @@ include './static/css/home.css';
         <input id="wyslij" type="submit" value="Login" />
         <div class="info"></div>
         <div class="foo">Forgot password?</div>
-        <div class="foo">
-            <span style="color:#398dfa ">Create Account</span>
-        </div>
+        <a href="create_customer.php">
+            <div class="foo">
+                <span style="color:#398dfa ">Create Account</span>
+            </div>
+        </a>
     </form>
 
 </div>
