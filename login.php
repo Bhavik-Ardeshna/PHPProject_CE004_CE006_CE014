@@ -12,9 +12,9 @@ require_once 'includes/header.php';
         <div class="acc" style="font-size:1em">
             <span style="color:#398dfa">Login</span> To Respective Account</div>
 
-        <a href="/GoTrip/admin"> <input id="wyslij" type="submit" value="Admin" /></a>
-        <a href="/GoTrip/agency"><input id="wyslij" type="submit" value="Organization" /></a>
-        <a href="/GoTrip/customer"> <input id="wyslij" type="submit" value="User" /></a>
+        <a href="/GoTrip/admin"> <input id="wyslij" class="my-3  animate-bounce" type="submit" value="Admin" /></a>
+        <a href="/GoTrip/agency"><input id="wyslij" class="my-3  animate-bounce" type="submit" value="Organization" /></a>
+        <a href="/GoTrip/customer"> <input id="wyslij" class="my-3  animate-bounce" type="submit" value="User" /></a>
 
     </div>
 </div>
