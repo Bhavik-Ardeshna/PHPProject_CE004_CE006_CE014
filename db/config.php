@@ -8,8 +8,8 @@ $db_port = "3306";
 $conn = new mysqli($db_host, $db_admin, $db_pass, $db_name) or die("Unable to connect");
 
 
-if ($conn->connect_error) {
-    die("Connection Failed");
-} else {
-    echo "Connected";
-}
+// if ($conn->connect_error) {
+//     die("Connection Failed");
+// } else {
+//     echo "Connected";
+// }

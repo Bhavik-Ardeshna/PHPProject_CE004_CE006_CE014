@@ -10,7 +10,7 @@ require_once '../db/config.php';
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    echo "posted";
+
     $name = $_POST['name'];
     $email = $_POST['email'];
     $type = $_POST['type'];
@@ -19,9 +19,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $loc = $_POST['loc'];
     $password = $_POST['psd'];
 
-    $query = "INSERT INTO agency VALUES ('" . $name . "','" . $email . "','" . $type . "','" . $email . "','" . $bname . "','" . $accno . "','" . $loc . "','" . $password . "')";
-    echo $query;
-    $result = mysqli_query($conn, $query);
+    $q = "INSERT INTO agency VALUES ('" . $name . "','" . $email . "','" . $type . "','" . $bname . "','" . $accno . "','" . $loc . "','" . $password . "')";
+
+
+    $r = mysqli_query($conn, $q);
 }
 
 ?>
