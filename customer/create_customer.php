@@ -10,12 +10,12 @@ require_once '../db/config.php';
 <?php
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    echo "posted";
+
     $name = $_POST['name'];
     $email = $_POST['email'];
     $contact = $_POST['contact'];
     $password = $_POST['psd'];
-    $query = "INSERT INTO user VALUES ('" . $name . "','" . $email . "',' . $contact . ','" . $password . "')";
+    $query = "INSERT INTO user VALUES ('" . $name . "','" . $email . "','" . $contact . "','" . $password . "')";
 
     $result = mysqli_query($conn, $query);
 }
