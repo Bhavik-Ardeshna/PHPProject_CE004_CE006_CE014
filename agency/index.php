@@ -6,7 +6,26 @@ require_once '../includes/header.php';
 <link rel="stylesheet" href="../static/css/login.css">
 
 <div class="container">
-    <form class="login-form" method="post">
+    <form class="login-form" action="validate_agency.php" method="post">
+        <div class="acc">
+            <?php
+            session_start();
+            if (!empty($_SESSION['ERROR_BEFORE_LOGIN_AGENCY'])) {
+                echo $_SESSION['ERROR_BEFORE_LOGIN_AGENCY'];
+                unset($_SESSION['ERROR_BEFORE_LOGIN_AGENCY']);
+            }
+
+            ?>
+            <?php
+            session_start();
+            if (!empty($_SESSION['ERROR_LOGIN_AGENCY'])) {
+                echo $_SESSION['ERROR_LOGIN_AGENCY'];
+                unset($_SESSION['ERROR_LOGIN_AGENCY']);
+            }
+
+            ?>
+
+        </div>
         <div id="hello">Hello!</div>
         <div class="good">Good Morning!</div>
         <div class="acc">
