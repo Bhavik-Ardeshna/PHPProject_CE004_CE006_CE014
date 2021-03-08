@@ -22,7 +22,7 @@ PHP, MySQL, HTML, JavaScript, and CSS.
   <li>Login and Registration system is available. </li>
   <li>The Authentication and Authorize System was implemented. </li>
   <li>There is admin panel for site administration. </li>
-  <li>Users can login differently<b>bookings</b> for trip</li>
+  <li>Users can login differently for <b>bookings</b> for trip</li>
   <li>Organization can login differently to update Hotels and Flight info</li>
   
 </ul>
