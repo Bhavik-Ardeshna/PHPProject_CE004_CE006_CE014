@@ -17,7 +17,6 @@ require_once '../includes/header.php';
 
             ?>
             <?php
-            session_start();
             if (!empty($_SESSION['ERROR_LOGIN_ADMIN'])) {
                 echo $_SESSION['ERROR_LOGIN_ADMIN'];
                 unset($_SESSION['ERROR_LOGIN_ADMIN']);

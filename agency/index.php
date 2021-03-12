@@ -17,7 +17,6 @@ require_once '../includes/header.php';
 
             ?>
             <?php
-            session_start();
             if (!empty($_SESSION['ERROR_LOGIN_AGENCY'])) {
                 echo $_SESSION['ERROR_LOGIN_AGENCY'];
                 unset($_SESSION['ERROR_LOGIN_AGENCY']);

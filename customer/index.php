@@ -1,7 +1,7 @@
 <?php
 $title = "Customer";
 require_once '../includes/header.php';
-include './static/css/home.css';
+// include './static/css/home.css';
 ?>
 <link rel="stylesheet" href="../static/css/home.css">
 <link rel="stylesheet" href="../static/css/login.css">
@@ -18,7 +18,6 @@ include './static/css/home.css';
 
             ?>
             <?php
-            session_start();
             if (!empty($_SESSION['ERROR_LOGIN_USER'])) {
                 echo $_SESSION['ERROR_LOGIN_USER'];
                 unset($_SESSION['ERROR_LOGIN_USER']);

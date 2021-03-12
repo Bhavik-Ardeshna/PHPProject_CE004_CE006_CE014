@@ -63,6 +63,13 @@ CREATE TABLE `agency` (
   `password` varchar(12) COLLATE utf8_bin NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
+--
+-- Dumping data for table `agency`
+--
+
+INSERT INTO `agency` (`org_name`, `email`, `org_type`, `bank_name`, `acc_no`, `location`, `password`) VALUES
+('org1', 'o123@g.com', 'benificial', 'Axis bank', 'ACC12345', 'surat', 'o12345');
+
 -- --------------------------------------------------------
 
 --
@@ -81,3 +88,25 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `hotel_data`
+--
+
+CREATE TABLE `hotel_data` (
+  `hotel_name` varchar(50) COLLATE utf8_bin NOT NULL,
+  `email` varchar(50) COLLATE utf8_bin NOT NULL,
+  `contactno` varchar(50) COLLATE utf8_bin NOT NULL,
+  `address` varchar(100) COLLATE utf8_bin NOT NULL,
+  `hotelimg` varchar(100) COLLATE utf8_bin NOT NULL,
+  `state` varchar(50) COLLATE utf8_bin NOT NULL,
+  `singlestatus` varchar(12) COLLATE utf8_bin DEFAULT "notpresent",
+  `singleprice` INT COLLATE utf8_bin,
+  `singleavailable` INT COLLATE utf8_bin,
+  `singleimg` varchar(100) COLLATE utf8_bin,
+  `doublestatus` varchar(12) COLLATE utf8_bin DEFAULT "notpresent",
+  `doubleprice` INT COLLATE utf8_bin,
+  `doubleavailable` INT COLLATE utf8_bin,
+  `doubleimg` varchar(100) COLLATE utf8_bin
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;

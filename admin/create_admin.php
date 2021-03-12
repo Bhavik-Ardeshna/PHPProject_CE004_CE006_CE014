@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <input id="wyslij" type="submit" value="Sign Up" />
         <div class="info"></div>
         <div class="foo">Forgot password?</div>
-        <a href="/GoTrip/admin">
+        <a href="/PHPProject_CE004_CE006_CE014/admin">
             <div class="foo">
                 <span style="color:#398dfa ">Login</span>
             </div>
