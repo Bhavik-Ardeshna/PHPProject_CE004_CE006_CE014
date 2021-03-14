@@ -15,9 +15,9 @@ if (!empty($_SESSION['IMAGE_ERROR'])) {
 $title = "Agency";
 require_once '../includes/header.php';
 ?>
-<link rel="stylesheet" href="../static/css/home.css">
-<link rel="stylesheet" href="../static/css/login.css">
 <link rel="stylesheet" href="../static/css/hotelform.css">
+<link rel="stylesheet" href="../static/css/home.css">
+<!-- <link rel="stylesheet" href="../static/css/login.css"> -->
 
 <div class="hotel-form">
     <form action="validateHotel.php" method="POST" enctype="multipart/form-data">

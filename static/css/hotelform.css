@@ -5,6 +5,10 @@
     margin: 15px 15px;
 }
 
+body{
+    background-color: #ebfbf4;
+}
+
 .hotel-form{
     margin-right: auto;
     margin-left: auto;
@@ -13,8 +17,9 @@
     padding: 10px 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 form{
@@ -30,5 +35,44 @@ form{
 
 .rooms{
     margin-left: 40px;
+}
+
+.input{
+    display: block;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.input input{
+    box-sizing: border-box;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #398dfa;
+    width: 90%;
+}
+
+.input input:focus{
+    border-bottom: 2px solid #398dfa;
+}
+
+#wyslij{
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    background: linear-gradient(45deg, #8abdff, #348cff);   
+    border: none;
+    outline: none;
+}
+
+#wyslij:focus{
+    outline: none;
+}
+
+#wyslij:hover{
+    background: #68a5f5;
 }
 

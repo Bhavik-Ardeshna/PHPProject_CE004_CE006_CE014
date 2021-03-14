@@ -12,18 +12,19 @@ if (!empty($_SESSION['HOTEL_ADDED'])) {
 ?>
 
 <?php
-$title = "Agency";
-require_once '../includes/header.php';
-?>
-<link rel="stylesheet" href="../static/css/home.css">
-<link rel="stylesheet" href="../static/css/login.css">
+    $title = "Agency";
+    require_once '../includes/header.php';
+    ?>
+    <link rel="stylesheet" href="../static/css/hotelform.css">
+    <link rel="stylesheet" href="../static/css/home.css">
+    <!-- <link rel="stylesheet" href="../static/css/login.css"> -->
 
 
-<h1>Organization Panel</h1>
-<button>
-    <a href="addHotel.php">Add New Hotel</a>
-</button>
-
+    <h1 class="hotelform-heading">Organization Panel</h1>
+    <button class="blockbtn" id="wyslij"> 
+        <a href="addHotel.php">Add New Hotel</a>
+    </button>
+    <br><br>
 <?php
 require_once '../includes/footer.php';
 ?>
