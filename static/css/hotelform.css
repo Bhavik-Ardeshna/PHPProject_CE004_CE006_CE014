@@ -1,0 +1,192 @@
+.hotelform-heading{    
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 15px 15px;
+}
+
+body{
+    background-color: #ebfbf4;
+}
+
+.hotel-form{
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+    opacity: 0.8;
+    padding: 10px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form{
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1% 2%;
+}
+
+.rooms{
+    margin-left: 40px;
+}
+
+.input{
+    display: block;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.input input{
+    box-sizing: border-box;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #398dfa;
+    width: 90%;
+}
+
+.input input:focus{
+    border-bottom: 2px solid #398dfa;
+}
+
+#wyslij{
+    cursor: pointer;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    background: linear-gradient(45deg, #8abdff, #348cff);   
+    border: none;
+    outline: none;
+}
+
+#wyslij:focus{
+    outline: none;
+}
+
+#wyslij:hover{
+    background: #68a5f5;
+}
+
+.hotels{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    padding: 20px 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    width: 310px;
+    float: left;
+    margin: 30px 30px;
+}
+
+.hotels:hover{
+    transform: scale(0.98);
+}
+
+.edit-hotel-btn {
+    transition-duration: 0.4s;
+    background-color:  #348cff;
+    color: black;
+    font-size: 22px;
+    width: 290px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    font-weight: bold;
+  }
+  
+  .edit-hotel-btn:hover {
+    color: white;
+    background-color: #8abdff;
+  }
+
+.hotels img{
+    width: 250px;
+    height: 250px;
+    margin: 30px 30px ;
+}
+
+.information{
+    margin: 20px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+#hotel-name{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+
+#status{
+    font-size: 15px;
+}
+
+.hotel-info{
+    background-color: white;
+    width: 80%;
+    margin-left: 135px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px 20px;
+    float: left;
+}
+
+.hotel-info img{
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+}
+
+.left{
+    position: relative;
+    float: left;
+}
+
+.right{
+    position: relative;
+    float: inline-end;
+    margin-left: 20px;
+}
+
+#roomimg{
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+}
+
+.room-info{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    background-color: whitesmoke;
+    padding: 20px 20px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#room-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+

@@ -15,8 +15,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if ($result = mysqli_query($conn, $query)) {
         $flag = 0;
         while ($data = mysqli_fetch_assoc($result)) {
-            echo $data['name'];
-            if ($data['name'] == $name and $data['password'] == $psd) {
+            echo $data['org_name'];
+            if ($data['org_name'] == $name and $data['password'] == $psd) {
                 $flag = 1;
                 break;
             }
