@@ -34,7 +34,7 @@ if (!empty($_SESSION['HOTEL_ADDED'])) {
             echo "<div class='hotels'>";
             
                 echo "<button class='edit-hotel-btn'>";
-                echo "<a href='#'>Edit Information</a>";
+                echo "<a href='viewHotel.php?n=".$data['hotel_name']."'>View Information</a>";
                 echo "</button>";
 
                 echo "<img src='".$data['hotelimg']."'>";
