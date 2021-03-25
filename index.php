@@ -4,6 +4,7 @@ require_once 'includes/header.php';
 ?>
 
 
+<link rel="stylesheet" href="./static/css/index.css">
 
 <section class="banner">
     <div class="flex flex-col w-max flex-wrap">
@@ -49,7 +50,123 @@ require_once 'includes/header.php';
 </section>
 
 
+<!--==============Places===================-->
+<section class="places mb-20">
+    <div class="places-text">
+        <small>FEATURED TOURS PACKAGES</small>
+        <h2>Favourite Places</h2>
+    </div>
 
+    <div class="cards">
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293736/james-wheeler_xqmq2y.jpg">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>The Dark Forest Adventure</h2>
+                <p class="cost">$1870 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 3 Days</p>
+                    <p class="location">&#9992; Vancouver, Canada</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293755/paris_uj8wum.jpg">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>The Dark Forest Adventure</h2>
+                <p class="cost">$1870 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 3 Days</p>
+                    <p class="location">&#9992; Paris, France</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293955/monaco_usu7xb.jpg">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>The Dark Forest Adventure</h2>
+                <p class="cost">$1870 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 3 Days</p>
+                    <p class="location">&#9992; Monaco, Monaco</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293874/switzerland_tubxcm.jpg">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>The Dark Forest Adventure</h2>
+                <p class="cost">$1870 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 3 Days</p>
+                    <p class="location">&#9992; Bern, Switzerland</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293673/korea_bxrcj5.jpg">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>The Dark Forest Adventure</h2>
+                <p class="cost">$1870 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 3 Days</p>
+                    <p class="location">&#9992; Seoul, South Korea</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="zoom-img">
+                <div class="img-card">
+                    <img src="https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293673/night-4336403_1920_demehp.jpg">
+                </div>
+            </div>
+
+            <div class="text">
+                <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
+                <h2>The Dark Forest Adventure</h2>
+                <p class="cost">$1870 / Per Person</p>
+                <div class="card-box">
+                    <p class="time">&#128339; 3 Days</p>
+                    <p class="location">&#9992; Tokyo, japan</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <?php
