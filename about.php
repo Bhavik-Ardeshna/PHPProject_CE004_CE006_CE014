@@ -18,7 +18,7 @@ require_once 'includes/header.php';
         <label><input type="checkbox" checked><?php echo "  "; ?>Bhavik Ardeshna</label>
         <label><input type="checkbox" checked><?php echo "  "; ?>Birva Babaria</label>
         <label><input type="checkbox" checked><?php echo "  "; ?>Riddhi Chaudhari</label>
-        <a href="#">ABOUT US</a>
+        <a href="https://github.com/Bhavik-Ardeshna/PHPProject_CE004_CE006_CE014"><strong>GITHUB REPOSITORY</strong></a>
     </div>
 </section>
 
