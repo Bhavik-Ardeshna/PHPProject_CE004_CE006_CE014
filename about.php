@@ -13,14 +13,11 @@ require_once 'includes/header.php';
     <div class="about-text">
         <small>ABOUT OUR COMPANY</small>
         <h2>We are Go Trip Ravels Support Company</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud</p>
-
-        <label><input type="checkbox" checked>Lorem ipsum dolor sit amet</label>
-        <label><input type="checkbox" checked>consectetur adipisicing elit</label>
-        <label><input type="checkbox" checked>Architecto atque consequuntur</label>
-        <label><input type="checkbox" checked>cupiditate doloremque ducimus</label>
+        <p>This is what holidays, travels, vacations are about. It is not really rest or even leisure we chase. We strain to renew our capacity to wonder, to shock ourselves into astonishment once again.</p>
+        <small class="mb-5"><b>Creator and Maintainer of GoTrip</b></small>
+        <label><input type="checkbox" checked><?php echo "  "; ?>Bhavik Ardeshna</label>
+        <label><input type="checkbox" checked><?php echo "  "; ?>Birva Babaria</label>
+        <label><input type="checkbox" checked><?php echo "  "; ?>Riddhi Chaudhari</label>
         <a href="#">ABOUT US</a>
     </div>
 </section>
