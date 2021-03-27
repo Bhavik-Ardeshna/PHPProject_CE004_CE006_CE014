@@ -42,6 +42,7 @@ if (empty($_SESSION['AUTH_AGENCY_NAME'])) {
             </div>
         </div>
         <br>
+        <?php if(isset($data['singleimg'])) { ?>
         <div class="room-info">
             <h2 id='room-heading'>*SingleBed room</h2>
             <div class="left">
@@ -54,7 +55,9 @@ if (empty($_SESSION['AUTH_AGENCY_NAME'])) {
                 </div>
             </div>
         </div>
+        <?php } ?>
 
+        <?php if(isset($data['doubleimg'])) { ?>
         <div class="room-info">
             <h2 id='room-heading'>*DoubleBed room</h2>
             <div class="left">
@@ -67,6 +70,7 @@ if (empty($_SESSION['AUTH_AGENCY_NAME'])) {
                 </div>
             </div>
         </div>
+        <?php } ?>
         <button class="edit-hotel-btn">
             <a href="removeHotel.php?n=<?php echo $name ?>">Remove Hotel</a>
         </button>
