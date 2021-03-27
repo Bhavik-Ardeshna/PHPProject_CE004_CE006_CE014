@@ -1,7 +1,7 @@
 <?php
 session_start();
-if (empty($_SESSION['AUTH_AGENCY_NAME'])) {
-    $_SESSION['ERROR_BEFORE_LOGIN_AGENCY'] = 'Login as Organization Please!!';
+if (empty($_SESSION['AUTH_AGENCY_USER'])) {
+    $_SESSION['ERROR_BEFORE_LOGIN_AGENCY'] = 'Login as User Please!!';
     header("Location: index.php");
     exit();
 }
@@ -54,6 +54,9 @@ if (empty($_SESSION['AUTH_AGENCY_NAME'])) {
                     <b>Available: </b><?php echo $data['singleavailable']; ?> rooms<br><br>
                 </div>
             </div>
+            <button class="edit-hotel-btn">
+            <a href="#">Book room</a>
+            </button>
         </div>
         <?php } ?>
 
@@ -69,11 +72,11 @@ if (empty($_SESSION['AUTH_AGENCY_NAME'])) {
                     <b>Available: </b><?php echo $data['doubleavailable']; ?> rooms<br><br>
                 </div>
             </div>
+            <button class="edit-hotel-btn">
+            <a href="#">Book room</a>
+            </button>
         </div>
         <?php } ?>
-        <button class="edit-hotel-btn">
-            <a href="removeHotel.php?n=<?php echo $name ?>">Remove Hotel</a>
-        </button>
     </div>
 
 <?php
