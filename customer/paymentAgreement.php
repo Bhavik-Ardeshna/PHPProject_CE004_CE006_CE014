@@ -13,7 +13,9 @@ require_once '../db/config.php';
 <section class="payment">
     <h1>Payments</h1>
     <div class="row">
-        <h2>Credit & debit cards</h2>
+        <h2 style="font-size:2em;padding-bottom:50px;">
+            <em>Read Agreement before making payment <a href="payment.php" class="input-box  bg-yellow-500 book-button mr-4">Pay Here</a></em>
+        </h2>
         <div class="col-1 icons">
             <img src="https://stripe.com/img/v3/pricing/payments/section-cards.svg" width="70" height="70" alt="cards logo">
         </div>
