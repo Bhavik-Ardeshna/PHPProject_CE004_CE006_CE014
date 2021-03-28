@@ -1,0 +1,152 @@
+
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 16px 'Ubuntu', Arial, sans-serif;
+}
+.container,
+.row {
+  width: 1000px;
+  margin: 0 auto;
+}
+.row {
+  margin-bottom: 50px;
+}
+.row-alt {
+  background: #F4FAFB;
+  padding: 45px 0;
+  margin-bottom: 50px;
+}
+.col-1,
+.col-2,
+.col-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+.col-1 { width: 180px; }
+.col-2 { width: 565px; }
+.col-3 { width: 750px; }
+
+/*
+  ========================================
+  Payment
+  ========================================
+*/
+.payment {
+  margin-top: 60px;
+}
+.payment h1 {
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #0d2b3e;
+  width: 1000px;
+  margin: 0 auto 40px;
+}
+.payment h1:before {
+  content: '';
+  float: left;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  background: url("https://stripe.com/img/v3/pricing/payments/title-icon.svg");  
+}
+
+/*
+  ========================================
+  Custom list
+  ========================================
+*/
+.card-list {
+  background: url("https://stripe.com/img/v3/pricing/payments/card-brands.svg") no-repeat;
+  height: 25px;
+  margin-top: 10px;
+}
+.card-list li {
+  display: inline-block;
+  text-indent: -999em;
+}
+.features-list {
+  list-style-position: inside;
+  color: #566b78;
+  margin-top: 20px;
+  overflow: auto;
+}
+.features-list li {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 15px;
+}
+
+/*
+  ========================================
+  Icons
+  ========================================
+*/
+.icons {
+  text-align: right;
+  margin-right: 40px;
+}
+.icons img {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.row-alt .icons img {
+  margin-top: 80px;
+}
+
+/*
+  ========================================
+  Info
+  ========================================
+*/
+.info h2 {
+  color: #0d2b3e;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.info h3 {
+  color: #566b78;
+  font-weight: 500;
+  margin: 20px 0 5px;
+}
+.info .description {
+  width: 100%;
+  padding: 5px 40px 5px 0;
+  border-right: 1px solid rgba(52,21,112,.075);
+}
+.row-alt .info .description {
+  border-right: none;
+}
+.info .description p {
+  color: #566b78;
+  line-height: 22px;
+}
+.info .description p a {
+  color: #008cdd;
+  text-decoration: none;
+}
+.info .description p a:hover {
+  color: #003f5e;
+}
+
+/*
+  ========================================
+  Price
+  ========================================
+*/
+.price {
+  vertical-align: bottom;
+  margin-bottom: 25px;
+}
+.price p {
+  margin-left: 35px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #00ab1c;
+}
+.payment h1 + .row .price {
+  margin-bottom: 55px;
+}
