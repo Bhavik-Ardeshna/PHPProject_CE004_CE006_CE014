@@ -13,7 +13,7 @@ PHP, MySQL, HTML, JavaScript, and CSS.
         <li>MySqli </li>
       </ul>
     <li>MySQL </li>
-    <li>The Database file is "gotrip.sql", which must be imported into MySQL. </li>
+    <li>The Database file is ```GoTrip.sql```, which must be imported into MySQL. </li>
   </ul>
   
 ## Features
