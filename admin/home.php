@@ -103,11 +103,11 @@ require_once '../includes/header.php';
                             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                         </svg>
-                        riddhichaudhari@gmail.com
+                        ridchaudhari18@gmail.com
                     </p>
                     <p class="text-base flex font-medium tracking-wide text-gray-600 mt-5">
-                        GSSoC'21 || Intern at Heliconia Solutions Pvt. Ltd || Open Source Contibutor || Data Science Enthusiastic || Exploring Big-Data || MERN Developer
-                    </p>
+                        B.Tech Student,DDU Nadiad || Music Enthusiastic
+                </p>
                     <p class="text-base flex font-medium tracking-wide text-gray-600 mt-5">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" height="30px" width="30px">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
