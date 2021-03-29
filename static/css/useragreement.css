@@ -1,0 +1,4 @@
+.description table tr:nth-child(odd) 
+{
+    border-bottom: 1px solid #ddd;
+}
