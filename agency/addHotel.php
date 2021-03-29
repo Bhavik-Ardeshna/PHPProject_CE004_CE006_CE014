@@ -43,10 +43,12 @@ require_once '../includes/header.php';
         <label for="hotelstate">State:</label>
 
         <select name="hotelstate" id="cars">
-        <option value="Gujarat">Gujarat</option>
-        <option value="Delhi">Delhi</option>
-        <option value="Punjab">Punjab</option>
-        <option value="Karnataka">Karnataka</option>
+        <option value="Vancouver">Vancouver</option>
+        <option value="Paris">Paris</option>
+        <option value="Monaco">Monaco</option>
+        <option value="Bern">Bern</option>
+        <option value="Seoul">Seoul</option>
+        <option value="Tokyo">Tokyo</option>
         </select><br><br>
         
         <hr><br>
