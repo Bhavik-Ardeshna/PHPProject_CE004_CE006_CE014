@@ -14,7 +14,6 @@ require_once 'includes/header.php';
         <form class="form text-black ">
             <input class="px-5 input-box mr-4" type="text" list="mylist" placeholder="Where would you like to go?">
             <datalist id="mylist">
-                <option>London</option>
                 <option>Canada</option>
                 <option>Monaco</option>
                 <option>France</option>
@@ -67,7 +66,7 @@ require_once 'includes/header.php';
 
             <div class="text">
                 <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
-                <h2>The Dark Forest Adventure</h2>
+                <h2>Orange Inn</h2>
                 <p class="cost">$1870 / Per Person</p>
                 <div class="card-box">
                     <p class="time">&#128339; 3 Days</p>
@@ -85,7 +84,7 @@ require_once 'includes/header.php';
 
             <div class="text">
                 <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
-                <h2>The Dark Forest Adventure</h2>
+                <h2>Seliata Inn</h2>
                 <p class="cost">$1870 / Per Person</p>
                 <div class="card-box">
                     <p class="time">&#128339; 3 Days</p>
@@ -103,7 +102,7 @@ require_once 'includes/header.php';
 
             <div class="text">
                 <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
-                <h2>The Dark Forest Adventure</h2>
+                <h2>Jolly Inn</h2>
                 <p class="cost">$1870 / Per Person</p>
                 <div class="card-box">
                     <p class="time">&#128339; 3 Days</p>
@@ -121,7 +120,7 @@ require_once 'includes/header.php';
 
             <div class="text">
                 <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
-                <h2>The Dark Forest Adventure</h2>
+                <h2>Luxy Inn</h2>
                 <p class="cost">$1870 / Per Person</p>
                 <div class="card-box">
                     <p class="time">&#128339; 3 Days</p>
@@ -139,7 +138,7 @@ require_once 'includes/header.php';
 
             <div class="text">
                 <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
-                <h2>The Dark Forest Adventure</h2>
+                <h2>Rest Inn</h2>
                 <p class="cost">$1870 / Per Person</p>
                 <div class="card-box">
                     <p class="time">&#128339; 3 Days</p>
@@ -157,7 +156,7 @@ require_once 'includes/header.php';
 
             <div class="text">
                 <span class="rating">&#11088;&#11088;&#11088;&#11088;&#11088;</span>
-                <h2>The Dark Forest Adventure</h2>
+                <h2>Greenpark Inn</h2>
                 <p class="cost">$1870 / Per Person</p>
                 <div class="card-box">
                     <p class="time">&#128339; 3 Days</p>

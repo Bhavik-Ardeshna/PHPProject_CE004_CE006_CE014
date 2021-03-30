@@ -73,7 +73,7 @@ require_once '../includes/header.php';
                     birvababaria@gmail.com
                 </p>
                 <p class="text-base flex font-medium tracking-wide text-gray-600 mt-5">
-                    GSSoC'21 || Intern at Heliconia Solutions Pvt. Ltd || Open Source Contibutor || Data Science Enthusiastic || Exploring Big-Data || MERN Developer
+                B.Tech Computer Engineering Student,DDU Nadiad || Music Enthusiastic
                 </p>
                 <p class="text-base flex font-medium tracking-wide text-gray-600 mt-5">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" height="30px" width="30px">
