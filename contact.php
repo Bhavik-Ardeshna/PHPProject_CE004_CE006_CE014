@@ -5,7 +5,17 @@ require_once 'includes/header.php';
 
 <link rel="stylesheet" href="./static/css/contactus.css">
 
-
+<?php
+    if ($_SERVER['REQUEST_METHOD'] == 'GET') 
+    {
+        if(isset($_GET['m']))
+        {
+            echo "<button class='msg-sent'>";
+            echo "Message sent";
+            echo "</button>";
+        }
+    }
+?>
 <div class="bg-gray-800 text-gray-100 px-8 py-12">
 
     <div class="max-w-screen-xl mt-24 px-8 grid gap-8 grid-cols-1 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 py-16 mx-auto bg-gray-100 text-gray-900 rounded-lg shadow-lg">
@@ -258,25 +268,25 @@ require_once 'includes/header.php';
                 </svg>
             </div>
         </div>
+        <form action="sendmessage.php" method="POST">
         <div class="">
             <div>
                 <span class="uppercase text-sm text-gray-600 font-bold">Full Name</span>
-                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" placeholder="">
+                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" name="fullname" placeholder="" required>
             </div>
             <div class="mt-8">
                 <span class="uppercase text-sm text-gray-600 font-bold">Email</span>
-                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text">
+                <input class="w-full bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" type="text" name="email" required>
             </div>
             <div class="mt-8">
                 <span class="uppercase text-sm text-gray-600 font-bold">Message</span>
-                <textarea class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"></textarea>
+                <textarea class="w-full h-32 bg-gray-300 text-gray-900 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline" name="message" required></textarea>
             </div>
             <div class="mt-8">
-                <button class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline">
-                    Send Message
-                </button>
+                <input class="uppercase text-sm font-bold tracking-wide bg-indigo-500 text-gray-100 p-3 rounded-lg w-full focus:outline-none focus:shadow-outline" type="submit" name="submit" value="Send Message">
             </div>
         </div>
+        </form>
     </div>
 </div>
 

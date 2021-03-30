@@ -111,12 +111,12 @@ CREATE TABLE `hotel_data` (
   `doubleimg` varchar(100) COLLATE utf8_bin
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
--- --
--- -- Table structure for table `contactus`
--- --
+--
+-- Table structure for table `contactus`
+--
 
--- CREATE TABLE `contactus` (
---   `fullname` varchar(50) COLLATE utf8_bin NOT NULL,
---   `email` varchar(50) COLLATE utf8_bin NOT NULL,
---   `message` varchar(200) COLLATE utf8_bin NOT NULL,
--- ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+CREATE TABLE `contactus` (
+  `fullname` varchar(50) COLLATE utf8_bin NOT NULL,
+  `email` varchar(50) COLLATE utf8_bin NOT NULL,
+  `message` varchar(200) COLLATE utf8_bin NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
