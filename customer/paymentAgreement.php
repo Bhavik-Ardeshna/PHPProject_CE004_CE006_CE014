@@ -1,4 +1,13 @@
 <?php
+session_start();
+if (empty($_SESSION['AUTH_AGENCY_USER'])) {
+    $_SESSION['ERROR_BEFORE_LOGIN_AGENCY'] = 'Login as User Please!!';
+    header("Location: index.php");
+    exit();
+}
+?>
+
+<?php
 $title = "Agency";
 require_once '../includes/header.php';
 require_once '../db/config.php';
