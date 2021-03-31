@@ -354,3 +354,28 @@ input {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
+
+.success{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+.successmsg{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.blue{
+    color: blue;
+}

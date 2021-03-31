@@ -135,6 +135,7 @@ require_once '../db/config.php';
             <label for="securitycode">Security Code</label>
             <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
         </div>
+        <a href="paymentsuccess.php"><input type="submit" value="Make Payment" /></a>
     </div>
 </div>
 
